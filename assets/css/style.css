@@ -1,0 +1,247 @@
+.sec3 .container button, .catch-products button, .cur-data .cur-btn .cur-btn-add, .main-btn {
+  border: 1px solid #EAA139;
+  background-color: #EAA139;
+  border-radius: 0;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.sec3 .container button:hover, .catch-products button:hover, .cur-data .cur-btn .cur-btn-add:hover, .main-btn:hover {
+  background-color: transparent;
+  color: #EAA139;
+}
+
+svg:hover {
+  cursor: pointer;
+}
+
+.fa-2x {
+  color: #333333 !important;
+}
+
+.header-nav {
+  padding: 20px 0;
+  transition: 1s;
+}
+.header-nav .container .collapse ul li a {
+  margin: 0 6px;
+  transition: 0.3s;
+}
+.header-nav .container .collapse ul li a:hover {
+  color: #EAA139;
+}
+
+.sticky-top {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff !important;
+  transition: 0.3s !important;
+}
+
+.search-bar {
+  background-color: #333333;
+  border-radius: 2px;
+  height: 0;
+  transition: 0.5s;
+}
+.search-bar input {
+  background: transparent;
+  width: 96%;
+  height: 3rem;
+  color: #fff;
+  border: none;
+}
+.search-bar input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.nav-item .nav-link {
+  text-align: center !important;
+}
+
+.header-icons svg {
+  margin: 0 12px;
+}
+
+/*End Header*/
+/*Start Cursor */
+.carousel {
+  height: 100vh;
+  background-color: #F8F9FD;
+}
+
+.cur-data {
+  padding-right: 4rem;
+}
+.cur-data h5 {
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  color: #81786e;
+  font-weight: 400;
+}
+.cur-data h1 {
+  font-size: 45px;
+  color: #616060;
+}
+.cur-data p {
+  color: #464443;
+  line-height: 2;
+}
+.cur-data p .old-price {
+  color: #81786e;
+  text-decoration: line-through;
+  margin-bottom: 3rem;
+}
+.cur-data .cur-btn {
+  margin-top: 3rem;
+}
+.cur-data .cur-btn .cur-btn-add {
+  padding: 14px 21px;
+  margin-right: 1rem;
+}
+.cur-data .cur-btn .cur-btn-add:hover {
+  background-color: transparent;
+  color: #EAA139;
+}
+.cur-data .cur-btn .cur-btn-info {
+  border: 1px solid #EAA139;
+  background-color: #fff;
+  padding: 14px 21px;
+  border-radius: 0;
+  color: #EAA139;
+  font-weight: 500;
+}
+
+.cur-img {
+  width: 40%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 7% !important;
+}
+
+/*END SLIDER*/
+/*Start SEC1*/
+.sec1 {
+  padding-top: 8rem;
+  background-color: #fff;
+}
+.sec1 a {
+  text-decoration: none;
+  color: #333333;
+  transition: 0.3s;
+}
+.sec1 a:hover {
+  color: #EAA139;
+}
+.sec1 p {
+  color: #616060;
+}
+
+.catch-products {
+  background-color: #F8F9FD;
+  text-align: center;
+  padding: 0 20px;
+}
+.catch-products img {
+  margin: 30px 0;
+}
+.catch-products .last-img-catch {
+  margin-top: 0;
+}
+.catch-products div {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+/*Start Sec2*/
+.sec2, .sec4 {
+  background-color: #fff;
+}
+.sec2 .container h3, .sec4 .container h3 {
+  color: #81786e;
+  padding: 5rem 0;
+}
+
+.product .product-img {
+  background-color: #F8F9FD;
+}
+.product .product-img img {
+  margin: 5rem;
+  transition: 0.3s linear;
+}
+.product .product-img .add-t-card {
+  color: #33383C;
+  padding: 0.3rem 0;
+  transition: 0.3s;
+  transform: scale(0);
+}
+.product .product-img .add-t-card div span {
+  color: #F8F9FD;
+  font-weight: 200;
+}
+.product .product-img .add-t-card div svg {
+  padding: 0 10px;
+  color: #F8F9FD;
+}
+.product .product-data h5 {
+  margin-top: 1rem;
+  color: #616060;
+}
+.product .product-data h6 {
+  color: #81786e;
+}
+.product:hover img {
+  transform: scale(1.3);
+}
+.product:hover .add-t-card {
+  transform: scale(1);
+}
+
+/*Sec3*/
+.sec3 {
+  position: relative;
+  background-image: url("../media/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F8F9FD;
+  padding-top: 6rem;
+  margin-top: 6rem;
+}
+.sec3 .container h3 {
+  padding-top: 9rem;
+}
+.sec3 .container p {
+  line-height: 2;
+  width: 70%;
+}
+.sec3 .container p span {
+  color: #EAA139;
+  font-weight: 600;
+}
+.sec3 .container button {
+  padding: 12px 21px;
+  margin-bottom: 9rem;
+}
+
+/*Sec3*/
+/*Sec4*/
+/*Sec4*/
+/*Sec5*/
+.sec5 {
+  margin-top: 6rem;
+  background-color: #F8F9FD;
+  padding: 5rem 0;
+}
+
+/*Sec5*/
+/*Footer*/
+.footer {
+  width: 100%;
+  background-color: #292929;
+  color: #fff;
+  padding: 20px;
+  margin-top: 4rem;
+}
+
+/*Footer*//*# sourceMappingURL=style.css.map */
